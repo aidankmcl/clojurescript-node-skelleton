@@ -1,4 +1,6 @@
 (ns app)
 
-(defn init []
-  (println "Jay!"))
+(defn hello-jayway [] "Hello, Jayway!")
+
+(defn main []
+  (println (hello-jayway)))
